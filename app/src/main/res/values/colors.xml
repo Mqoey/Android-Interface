@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Developed by Mqondisi Ndlovu Copyright (c) 2021. contact @ 0772783880
+  -->
+
+<resources>
+    <color name="colorPrimary">#9c1e26</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>

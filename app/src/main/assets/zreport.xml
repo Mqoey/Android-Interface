@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Developed by Mqondisi Ndlovu Copyright (c) 2021. contact @ 0772783880
+  -->
+
+<users>
+
+    <user>
+
+        <name>Suresh Dasari</name>
+
+        <designation>Team Leader</designation>
+
+        <loation>Hyderabad</loation>
+
+    </user>
+
+    <user>
+
+        <name>Rohini Alavala</name>
+
+        <designation>Agricultural Officer</designation>
+
+        <loation>Guntur</loation>
+
+    </user>
+
+    <user>
+
+        <name>Trishika Dasari</name>
+
+        <designation>Charted Accountant</designation>
+
+        <loation>Guntur</loation>
+
+    </user>
+
+</users>

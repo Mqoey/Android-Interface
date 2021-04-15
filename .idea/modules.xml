@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RevMax_Android_Interface.iml" filepath="$PROJECT_DIR$/.idea/modules/RevMax_Android_Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RevMax_Android_Interface.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RevMax_Android_Interface.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.secureflashcard.wormapi-359-release/RevMax_Android_Interface.com.secureflashcard.wormapi-359-release.iml" filepath="$PROJECT_DIR$/.idea/modules/com.secureflashcard.wormapi-359-release/RevMax_Android_Interface.com.secureflashcard.wormapi-359-release.iml" />
+    </modules>
+  </component>
+</project>

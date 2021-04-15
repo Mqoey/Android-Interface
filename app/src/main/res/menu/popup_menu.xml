@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Developed by Mqondisi Ndlovu Copyright (c) 2021. contact @ 0772783880
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/one"
+        android:title="One" />
+    <item
+        android:id="@+id/two"
+        android:title="Two"/>
+    <item
+        android:id="@+id/three"
+        android:title="Three"/>
+</menu>

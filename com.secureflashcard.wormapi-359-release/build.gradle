@@ -1,0 +1,6 @@
+/*
+ * Developed by Mqondisi Ndlovu Copyright (c) 2021. contact @ 0772783880
+ */
+
+configurations.maybeCreate("default")
+artifacts.add("default", file('com.secureflashcard.wormapi-359-release.aar'))

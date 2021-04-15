@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Developed by Mqondisi Ndlovu Copyright (c) 2021. contact @ 0772783880
+  -->
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Audit.AuditMainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appbarlayout"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- ToolBar widget -->
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D00D0D"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:title="RevAudit"
+                app:titleTextColor="#ffff" />
+
+            <!-- Right most TextView -->
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="0"
+                android:textColor="#ffff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/toolbar"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- Right most ImageView -->
+            <ImageView
+                android:id="@+id/refresh"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="9dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/textView2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/refresh" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="579dp"
+        android:layout_marginTop="100dp">
+
+        <ListView
+
+            android:id="@+id/user_list"
+            android:layout_width="fill_parent"
+            android:layout_height="645dp"
+            android:dividerHeight="1dp" />
+
+    </LinearLayout>
+<!--    <include layout="@layout/zreports_main_fragment" />-->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,22 @@
+<!--
+  ~ Developed by Mqondisi Ndlovu Copyright (c) 2021. contact @ 0772783880
+  -->
+
+<resources>
+    <string name="app_name">Revmax Service</string>
+    <string name="msg_bluetooth_is_not_supported">Bluetooth is not supported on this hardware platform</string>
+    <string name="title_activity_device">Available Devices</string>
+    <string name="msg_please_wait">Please, wait&#8230;</string>
+    <string name="title_activity_audit">AuditActivity</string>
+    <string name="tab_text_1">Transactions</string>
+    <string name="tab_text_2">ZReports</string>
+    <string name="title_activity_audit_main">AuditMainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

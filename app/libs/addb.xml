@@ -1,0 +1,10 @@
+<!--
+  ~ Developed by Mqondisi Ndlovu Copyright (c) 2021. contact @ 0772783880
+  -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+    <solid android:color="@color/colorPrimary" />
+    <!--<stroke android:width="0.3dip" android:color="#000000"/>-->
+    <corners android:radius="4dip" />
+
+</shape>
