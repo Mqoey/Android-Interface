@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "367985885249",
+    "firebase_url": "https://revmaxinterface.firebaseio.com",
+    "project_id": "revmaxinterface",
+    "storage_bucket": "revmaxinterface.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367985885249:android:b10f928a958df583",
+        "android_client_info": {
+          "package_name": "com.axis.revmaxinterface"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367985885249-biil3q7lq9egavkpe1r6nftrg8safb9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC4rO8a9CuhZ82PejCcFqqLbc0qtmhRH4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
